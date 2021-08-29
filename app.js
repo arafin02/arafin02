@@ -1,8 +1,8 @@
 var typed = new Typed("#lang_type", {
   strings: [
-    '<i class="js">Javascript</i>',
-    '<i class="vuejs">VueJS</i>',
-    '<i class="django">Django</i>',
+    '<i class="text-yellow-400">Javascript</i>',
+    '<i class="text-green-400">VueJS</i>',
+    '<i class="text-green-800">Django</i>',
   ],
   typeSpeed: 45,
   backSpeed: 45,

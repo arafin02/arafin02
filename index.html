@@ -20,28 +20,42 @@
     />
     <link rel="manifest" href="/media/favicon_io//site.webmanifest" />
     <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div class="fullvh">
-      <div class="flex">
-        <div class="brand"><i>arafin</i></div>
-        <div class="social-link">
-          <a href="https://www.github.com/arafin02"
-            ><img class="icon" src="/media/github.svg" alt="Github - arafin02"
-          /></a>
-          <a href="mailto:md.arafinislam1902@gmail.com">
-            <img
-              class="icon"
-              src="/media/mail.png"
-              alt="Gmail - Md. Arafin Islam"
-            />
-          </a>
-        </div>
+  <body class="select-none">
+    <div class="flex justify-between items-center">
+      <div class="brand flex-none"><i>arafin</i></div>
+      <div class="flex-none flex">
+        <a href="https://www.github.com/arafin02"
+          ><img
+            class="icon flex-auto"
+            src="/media/github.svg"
+            alt="Github - arafin02"
+        /></a>
+        <a href="mailto:md.arafinislam1902@gmail.com">
+          <img
+            class="icon flex-auto"
+            src="/media/mail.png"
+            alt="Gmail - Md. Arafin Islam"
+          />
+        </a>
       </div>
-      <div class="text-center">
-        <div class="name">Md. Arafin Islam</div>
-        <div class="impressum">Web Developer Who Likes Building Staff with</div>
-        <div class="impressum" id="lang_type"></div>
+    </div>
+    <div class="text-center h-screen flex flex-col items-center justify-center">
+      <div class="text-purple-800 lg:text-7xl md:text-6xl text-5xl font-bold">
+        Md. Arafin Islam
+      </div>
+      <div class="text-3xl lg:text-4xl md:text-4xl font-semibold">
+        Web Developer Who Likes Building Staff with
+      </div>
+      <div>
+        <div
+          class="text-3xl lg:text-4xl md:text-4xl font-semibold"
+          id="lang_type"
+        ></div>
       </div>
     </div>
     <!-- js files -->
