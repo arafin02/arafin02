@@ -9,4 +9,5 @@ var typed = new Typed("#lang_type", {
   shuffle: false,
   smartBackspace: false,
   loop: true,
+  cursorChar: '_',
 });
