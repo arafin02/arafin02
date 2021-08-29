@@ -5,19 +5,6 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-
-.brand{
-  font-size: 35px;
-  font-weight: 600;
-  /* color: #700ecc; */
-  background: -webkit-linear-gradient(#6d1de1, #cd5de9);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-left: 15px;
-  padding-right: 15px;
-  transition: ease-in-out;
-}
 .icon{
   height: 35px;
   width: 35px;
