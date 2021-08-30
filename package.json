@@ -1,0 +1,16 @@
+{
+  "name": "arafin02",
+  "version": "1.0.0",
+  "description": "A minimal portfolio of Md. Arafin Islam",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arafin02/arafin02.git"
+  },
+  "author": "md.arafinislam1902@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arafin02/arafin02/issues"
+  },
+  "homepage": "https://www.arafin.netlify.app"
+}
